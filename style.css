@@ -342,3 +342,105 @@ li:hover{
     margin-left: 50px;
 }
 
+.our-services-container{
+    border: 8px solid black;
+    width: 100%;
+    height: 110vh;
+    background-color: #323a43;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-services-title{
+    border: 7px solid rgb(129, 11, 11);
+    height: 30%;
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-services-title h2{
+    margin: 0;
+    font-size: 1.3rem;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.our-services-title h1{
+    margin: 0;
+    font-size: 3.5rem;
+    color: #c8b050;
+}
+
+.our-services-content{
+    border: 6px solid blue;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 120px;
+    margin-top: 30px;
+}
+
+#our-services-divider{
+    width: 5%;
+}
+
+.our-services-square{
+    border: 6px solid rgb(12, 141, 77);
+    display: flex;  
+    width: 100%;
+    height: 200px;
+}
+
+.our-services-icon{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid yellow;
+}
+
+.our-services-text{
+    border: 5px solid purple;
+    width: 85%;
+    height: 100%;
+    padding: 20px 40px 0 10px;
+}
+
+#service-icon{
+    border: 4px solid pink;
+    font-size: 3rem;
+    color: #c8b050;
+}
+
+#service-icon:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.service-title{
+    border: 4px solid rgb(0, 55, 18);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.service-title:hover{
+    color: #c8b050;
+    cursor: pointer;
+}
+
+.service-description{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
