@@ -343,7 +343,6 @@ li:hover{
 }
 
 .our-services-container{
-    border: 8px solid black;
     width: 100%;
     height: 110vh;
     background-color: #323a43;
@@ -352,7 +351,6 @@ li:hover{
 }
 
 .our-services-title{
-    border: 7px solid rgb(129, 11, 11);
     height: 30%;
     width: 100%;
     padding-top: 120px;
@@ -378,7 +376,6 @@ li:hover{
 }
 
 .our-services-content{
-    border: 6px solid blue;
     width: 100%;
     height: 50%;
     display: grid;
@@ -392,7 +389,6 @@ li:hover{
 }
 
 .our-services-square{
-    border: 6px solid rgb(12, 141, 77);
     display: flex;  
     width: 100%;
     height: 200px;
@@ -403,18 +399,15 @@ li:hover{
     height: 100%;
     display: flex;
     justify-content: center;
-    border: 5px solid yellow;
 }
 
 .our-services-text{
-    border: 5px solid purple;
     width: 85%;
     height: 100%;
     padding: 20px 40px 0 10px;
 }
 
 #service-icon{
-    border: 4px solid pink;
     font-size: 3rem;
     color: #c8b050;
 }
@@ -425,7 +418,6 @@ li:hover{
 }
 
 .service-title{
-    border: 4px solid rgb(0, 55, 18);
     color: #fff;
     font-weight: 700;
     font-size: 1.5rem;
