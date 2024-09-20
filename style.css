@@ -821,3 +821,75 @@ footer{
     color: #2e353d;
     font-size: 0.9rem;
 }
+
+
+@media (max-width:1440px) {
+    .content{
+        padding: 0 90px;
+    }
+
+    #square-3 {
+        padding: 0 60px;
+    }
+
+    .testimonials-cards-container{
+        padding: 0 100px;
+    }
+
+    .post-content {
+        padding: 0 55px 0 10px;
+
+    }
+}
+
+
+@media (max-width:1280px){
+    header{
+        padding: 0 40px;
+    }
+
+    .highlights-container{
+        padding: 0 60px;
+    }
+
+    .testimonials-cards-container{
+        padding: 0 110px;
+    }
+
+    footer{
+        padding: 220px 60px 80px 60px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .highlights-container{
+        padding: 0 20px;
+    }
+
+    .our-services-content {
+        padding: 0 40px;
+    }
+
+    .content {
+        padding: 0 60px;
+    }
+
+
+    #square-3 {
+        padding: 0 40px;
+    }
+
+    .testimonials-cards-container{
+        padding: 0 50px;
+    }
+
+
+    .form-content{
+        padding: 120px 20px 60px 20px;
+    }
+
+    footer{
+        padding: 220px 30px 80px 30px;
+    }
+}
